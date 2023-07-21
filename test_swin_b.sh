@@ -1,0 +1,1 @@
+python3 main_val.py --cfg configs/swin/swin_base_patch4_window7_224.yaml --pretrain_path /workspace/model_swin/swin_base_patch4_window7_224.pth

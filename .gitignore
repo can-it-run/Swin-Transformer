@@ -4,11 +4,12 @@ __pycache__/
 *$py.class
 
 # launch bash
-*.sh
+# *.sh
 # nsight system report files
 *.nsys-rep
 *.sqlite
-
+imagenet_val
+output
 # C extensions
 *.so
 

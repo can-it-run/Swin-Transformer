@@ -1,0 +1,1 @@
+python3 main_export_s.py --cfg configs/swin/swin_small_patch4_window7_224.yaml

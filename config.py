@@ -334,7 +334,7 @@ def update_config(config, args):
         config.TRAIN.OPTIMIZER.NAME = args.optim
 
     # set local rank for distributed training
-    config.LOCAL_RANK = args.local_rank
+    config.LOCAL_RANK = 0
 
     # output folder
     config.OUTPUT = os.path.join(config.OUTPUT, config.MODEL.NAME, config.TAG)
